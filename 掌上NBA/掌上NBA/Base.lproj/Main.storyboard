@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Oui-S4-vey">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--今日赛程-->
+        <scene sceneID="jxr-vd-7vK">
+            <objects>
+                <tabBarController id="Oui-S4-vey" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="今日赛程" id="QeI-ws-ifm"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <tabBar key="tabBar" alpha="0.94999999999999996" contentMode="scaleToFill" id="2p5-HV-BbO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.89044640010565179" green="0.89381037615247116" blue="0.90390230429292928" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="xiJ-n1-PLh" kind="relationship" relationship="viewControllers" id="6yb-Tt-dzh"/>
+                        <segue destination="zWv-pc-9OJ" kind="relationship" relationship="viewControllers" id="FRU-UG-9rG"/>
+                        <segue destination="rzg-47-qC9" kind="relationship" relationship="viewControllers" id="hJ4-VZ-XmA"/>
+                        <segue destination="y9N-Pl-hcl" kind="relationship" relationship="viewControllers" id="zAL-4b-6Ru"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eFx-e8-5yE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1730.5" y="1282.5"/>
+        </scene>
+        <!--今日赛程-->
+        <scene sceneID="onY-So-4oV">
+            <objects>
+                <tableViewController id="2ok-Zj-hxt" customClass="MatchTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="QOH-0q-FZm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="213-dC-8UV">
+                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="213-dC-8UV" id="2i9-hD-MIf">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <animations/>
+                                </tableViewCellContentView>
+                                <animations/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="2ok-Zj-hxt" id="bOB-ju-VN2"/>
+                            <outlet property="delegate" destination="2ok-Zj-hxt" id="kb4-b0-gBY"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="今日赛程" id="Z3r-mI-RDt"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OmC-HM-y9c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-560.5" y="386.5"/>
+        </scene>
+        <!--今日赛程-->
+        <scene sceneID="M5j-An-W80">
+            <objects>
+                <navigationController id="xiJ-n1-PLh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="今日赛程" image="篮球.png" id="Y7b-sX-mH5"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="r83-0p-Cd9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="2ok-Zj-hxt" kind="relationship" relationship="rootViewController" id="8ZI-AB-PlZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fTq-fG-Rwq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1228.5" y="386.5"/>
+        </scene>
+        <!--球员排行-->
+        <scene sceneID="RaD-dW-ngr">
+            <objects>
+                <tableViewController id="r6O-B5-Xlj" customClass="PlayerTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="FqA-BD-nbK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="du0-AS-fFu">
+                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="du0-AS-fFu" id="EvL-ZE-Jgz">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <animations/>
+                                </tableViewCellContentView>
+                                <animations/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="r6O-B5-Xlj" id="QSQ-mg-HOg"/>
+                            <outlet property="delegate" destination="r6O-B5-Xlj" id="FJ5-Hp-ZCf"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="球员排行" id="1ZS-58-zf6"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ngc-18-VaG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-560.5" y="1282.5"/>
+        </scene>
+        <!--球员排行-->
+        <scene sceneID="FFN-cu-0im">
+            <objects>
+                <navigationController id="rzg-47-qC9" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="球员排行" image="球员.png" id="e6i-PS-mJm"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PkV-2R-g26">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="r6O-B5-Xlj" kind="relationship" relationship="rootViewController" id="EvV-7X-Z6V"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cdK-ZT-Kph" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1228.5" y="1275.5"/>
+        </scene>
+        <!--球队排行-->
+        <scene sceneID="hob-RY-dR2">
+            <objects>
+                <tableViewController id="SlR-p3-Wqi" customClass="TeamTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="vSH-k7-ndq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="48G-ot-3G0">
+                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="48G-ot-3G0" id="rCa-Rs-wKc">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <animations/>
+                                </tableViewCellContentView>
+                                <animations/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="SlR-p3-Wqi" id="Sfj-kF-owz"/>
+                            <outlet property="delegate" destination="SlR-p3-Wqi" id="dcO-hJ-wYY"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="球队排行" id="nbb-kN-J2S"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DlE-nA-UTw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-731.5" y="2125.5"/>
+        </scene>
+        <!--球队排行-->
+        <scene sceneID="v9A-DE-PGa">
+            <objects>
+                <navigationController id="y9N-Pl-hcl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="球队排行" image="球队排行.png" id="CWN-GS-SEc"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5rc-YH-lcr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="SlR-p3-Wqi" kind="relationship" relationship="rootViewController" id="iBw-Eg-bXN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bxA-aB-Dvw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1228.5" y="2125.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mbZ-dY-xU1">
+            <objects>
+                <navigationController id="Zy0-up-qqc" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PUn-tV-LuV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ehr-fO-y4Q" kind="relationship" relationship="rootViewController" id="Nxz-i7-4Pg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2KB-9I-sCh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="65.5" y="1275.5"/>
+        </scene>
+        <!--球员姓名-->
+        <scene sceneID="1KI-it-swg">
+            <objects>
+                <viewController id="ehr-fO-y4Q" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mgO-pG-05e"/>
+                        <viewControllerLayoutGuide type="bottom" id="6EI-ob-smI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uo2-XW-ILq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q8J-4f-eVy">
+                                <rect key="frame" x="0.0" y="64" width="375" height="170"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.14788668629999999" green="1" blue="0.95592289389999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="球员姓名" id="pCj-t2-eUh"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WOd-5m-DHl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="520.5" y="1288.5"/>
+        </scene>
+        <!--NBA新闻-->
+        <scene sceneID="iBZ-BV-0uh">
+            <objects>
+                <tableViewController id="CdQ-Qj-Jq0" customClass="NBANewsTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="wDL-p4-f1P">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="mXk-k4-Y4j">
+                            <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.14788668629999999" green="1" blue="0.95592289389999996" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="eXM-s6-8QR">
+                                <rect key="frame" x="0.0" y="339" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eXM-s6-8QR" id="ftZ-0f-Xyq">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <animations/>
+                                </tableViewCellContentView>
+                                <animations/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="CdQ-Qj-Jq0" id="dQ4-Vb-aVF"/>
+                            <outlet property="delegate" destination="CdQ-Qj-Jq0" id="DJk-x5-1Ye"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="NBA新闻" id="oH3-Vk-lGF"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="view4Photo" destination="mXk-k4-Y4j" id="rhd-2A-sJh"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PBd-Hv-KCw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-750.5" y="3037.5"/>
+        </scene>
+        <!--NBA新闻-->
+        <scene sceneID="hEA-UA-WTX">
+            <objects>
+                <navigationController id="zWv-pc-9OJ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="NBA新闻" image="新闻.png" id="UWZ-vK-njS"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VCe-mY-eye">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="CdQ-Qj-Jq0" kind="relationship" relationship="rootViewController" id="d8c-BE-XUd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nuT-Z1-pPX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1228.5" y="3037.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Mp6-WV-fMD">
+            <objects>
+                <navigationController id="6bX-De-qE7" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6jc-6b-61v">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="dFQ-z6-X0g" kind="relationship" relationship="rootViewController" id="inU-WN-hg5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Amm-tg-sob" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-169.5" y="3105.5"/>
+        </scene>
+        <!--新闻详情-->
+        <scene sceneID="Fc6-ey-bJf">
+            <objects>
+                <viewController storyboardIdentifier="newsDetailVC" id="dFQ-z6-X0g" customClass="NewsDetailController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xzm-vE-2OK"/>
+                        <viewControllerLayoutGuide type="bottom" id="JUE-ko-mep"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qAK-kY-Pi1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JFo-Y5-qvR">
+                                <rect key="frame" x="0.0" y="64" width="375" height="49"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.87186316289999999" green="0.72520329839999997" blue="0.86656580439999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="THd-w4-EdB">
+                                <rect key="frame" x="0.0" y="113" width="375" height="554"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="新闻详情" id="X9P-Te-Dfc"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ZL-vT-LuR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="284.5" y="3062.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="新闻.png" width="30" height="30"/>
+        <image name="球员.png" width="30" height="30"/>
+        <image name="球队排行.png" width="30" height="30"/>
+        <image name="篮球.png" width="30" height="30"/>
+    </resources>
+</document>

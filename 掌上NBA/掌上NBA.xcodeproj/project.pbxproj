@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0456019852E8BEA22DF0BCB6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C23D618A34C578267A1255B4 /* libPods.a */; };
+		300B1E961BFCB35A00BFD541 /* NewsDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 300B1E951BFCB35A00BFD541 /* NewsDetailModel.m */; };
+		300BC6C71BFC7EE100E48792 /* NewsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 300BC6C51BFC7EE100E48792 /* NewsDetailController.m */; };
+		300BC6C81BFC7EE100E48792 /* NewsDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 300BC6C61BFC7EE100E48792 /* NewsDetailController.xib */; };
+		301631461BFB562E0035E85F /* NBA图标256*256PX 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 301631451BFB562E0035E85F /* NBA图标256*256PX 2.png */; };
+		302014D01C2007A600C8E144 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 302014CF1C2007A600C8E144 /* test.jpg */; };
+		302014D61C20316500C8E144 /* 33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 302014D51C20316500C8E144 /* 33.jpg */; };
+		3037B9D71BF9C02700AD1DA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3037B9D61BF9C02700AD1DA2 /* main.m */; };
+		3037B9E21BF9C02800AD1DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3037B9E11BF9C02800AD1DA2 /* Assets.xcassets */; };
+		3037B9E51BF9C02800AD1DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3037B9E31BF9C02800AD1DA2 /* LaunchScreen.storyboard */; };
+		3037B9FA1BF9C12C00AD1DA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3037B9EF1BF9C12C00AD1DA2 /* AppDelegate.m */; };
+		3037B9FE1BF9CF4E00AD1DA2 /* MatchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3037B9FC1BF9CF4E00AD1DA2 /* MatchTableViewCell.m */; };
+		3037B9FF1BF9CF4E00AD1DA2 /* MatchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3037B9FD1BF9CF4E00AD1DA2 /* MatchTableViewCell.xib */; };
+		3037BA041BF9D9A500AD1DA2 /* MatchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3037BA031BF9D9A500AD1DA2 /* MatchTableViewController.m */; };
+		3037BA1F1BF9FE6200AD1DA2 /* NBANewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3037BA1D1BF9FE6200AD1DA2 /* NBANewsTableViewCell.m */; };
+		3037BA201BF9FE6200AD1DA2 /* NBANewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3037BA1E1BF9FE6200AD1DA2 /* NBANewsTableViewCell.xib */; };
+		3037BA241BFA073700AD1DA2 /* 森林狼.png in Resources */ = {isa = PBXBuildFile; fileRef = 3037BA211BFA073700AD1DA2 /* 森林狼.png */; };
+		3037BA251BFA073700AD1DA2 /* 勇士.png in Resources */ = {isa = PBXBuildFile; fileRef = 3037BA221BFA073700AD1DA2 /* 勇士.png */; };
+		3037BA291BFA07E200AD1DA2 /* NBANewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3037BA281BFA07E200AD1DA2 /* NBANewsTableViewController.m */; };
+		3037BA2C1BFA0E5E00AD1DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3037BA2A1BFA0E5E00AD1DA2 /* Main.storyboard */; };
+		3037BA301BFA10E300AD1DA2 /* PlayerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3037BA2E1BFA10E300AD1DA2 /* PlayerTableViewCell.m */; };
+		3037BA311BFA10E300AD1DA2 /* PlayerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3037BA2F1BFA10E300AD1DA2 /* PlayerTableViewCell.xib */; };
+		3037BA331BFA151800AD1DA2 /* 库里1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3037BA321BFA151800AD1DA2 /* 库里1.jpg */; };
+		3037BA361BFA153B00AD1DA2 /* PlayerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3037BA351BFA153B00AD1DA2 /* PlayerTableViewController.m */; };
+		3064320B1C02EEFF00FDE4CB /* tubiao.png in Resources */ = {isa = PBXBuildFile; fileRef = 3064320A1C02EEFF00FDE4CB /* tubiao.png */; };
+		3064320E1C03150E00FDE4CB /* MZGuidePages.m in Sources */ = {isa = PBXBuildFile; fileRef = 3064320D1C03150E00FDE4CB /* MZGuidePages.m */; };
+		306432141C03183000FDE4CB /* 44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 306432101C03183000FDE4CB /* 44.jpg */; };
+		306432161C03183000FDE4CB /* 66.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 306432121C03183000FDE4CB /* 66.jpg */; };
+		308879591BFAB7BA00B9FF71 /* MatchModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 308879581BFAB7BA00B9FF71 /* MatchModels.m */; };
+		3088795C1BFAB7F800B9FF71 /* NewsModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 3088795B1BFAB7F800B9FF71 /* NewsModels.m */; };
+		3088795F1BFABAD900B9FF71 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3088795E1BFABAD900B9FF71 /* DataManager.m */; };
+		308879621BFB0F5B00B9FF71 /* MacthDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 308879611BFB0F5B00B9FF71 /* MacthDataManager.m */; };
+		30CF37951C02A41200647827 /* 篮球.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF37911C02A41200647827 /* 篮球.png */; };
+		30CF37961C02A41200647827 /* 球队排行.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF37921C02A41200647827 /* 球队排行.png */; };
+		30CF37971C02A41200647827 /* 球员.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF37931C02A41200647827 /* 球员.png */; };
+		30CF37981C02A41200647827 /* 新闻.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF37941C02A41200647827 /* 新闻.png */; };
+		30CF379A1C02A5F000647827 /* 1-111024161354.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30CF37991C02A5F000647827 /* 1-111024161354.jpg */; };
+		30D4F47B1C004BDC007FB0F7 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 30D4F46B1C004BDC007FB0F7 /* MJRefresh.bundle */; };
+		30D4F47C1C004BDC007FB0F7 /* MJRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D4F46E1C004BDC007FB0F7 /* MJRefreshBaseView.m */; };
+		30D4F47D1C004BDC007FB0F7 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D4F4701C004BDC007FB0F7 /* MJRefreshConst.m */; };
+		30D4F47E1C004BDC007FB0F7 /* MJRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D4F4721C004BDC007FB0F7 /* MJRefreshFooterView.m */; };
+		30D4F47F1C004BDC007FB0F7 /* MJRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D4F4741C004BDC007FB0F7 /* MJRefreshHeaderView.m */; };
+		30D4F4801C004BDC007FB0F7 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D4F4761C004BDC007FB0F7 /* UIScrollView+MJExtension.m */; };
+		30D4F4811C004BDC007FB0F7 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D4F4781C004BDC007FB0F7 /* UIScrollView+MJRefresh.m */; };
+		30D4F4821C004BDC007FB0F7 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D4F47A1C004BDC007FB0F7 /* UIView+MJExtension.m */; };
+		30D8EC451BFC12E700D388A1 /* PlayerDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D8EC441BFC12E700D388A1 /* PlayerDataManager.m */; };
+		30D8EC481BFC12F300D388A1 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D8EC471BFC12F300D388A1 /* Player.m */; };
+		30D96A501BFD9ED6007CF42C /* groups.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D96A4F1BFD9ED5007CF42C /* groups.m */; };
+		30E7BBD81BFDCEB30009A590 /* TeamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E7BBD61BFDCEB30009A590 /* TeamTableViewCell.m */; };
+		30E7BBD91BFDCEB30009A590 /* TeamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E7BBD71BFDCEB30009A590 /* TeamTableViewCell.xib */; };
+		30E7BBDF1BFDD4E10009A590 /* TeamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E7BBDE1BFDD4E10009A590 /* TeamModel.m */; };
+		30E7BBE41BFDF2390009A590 /* NBA图标 128*128 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E7BBE01BFDF2390009A590 /* NBA图标 128*128 4.png */; };
+		30E7BBE51BFDF2390009A590 /* NBA图标 256*256 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E7BBE11BFDF2390009A590 /* NBA图标 256*256 1.png */; };
+		30E7BBE61BFDF2390009A590 /* NBA图标 256*256 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E7BBE21BFDF2390009A590 /* NBA图标 256*256 4.png */; };
+		30E7BBE71BFDF2390009A590 /* NBA图标 排行.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E7BBE31BFDF2390009A590 /* NBA图标 排行.png */; };
+		30F30A221BFF079F007F6C51 /* PlayerDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F30A201BFF079F007F6C51 /* PlayerDetailController.m */; };
+		30F30A231BFF079F007F6C51 /* PlayerDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F30A211BFF079F007F6C51 /* PlayerDetailController.xib */; };
+		30FB519D1BFF1D6F00A7FE92 /* TeamTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB519C1BFF1D6F00A7FE92 /* TeamTableViewController.m */; };
+		30FB51A01BFF204B00A7FE92 /* TeamDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB519F1BFF204B00A7FE92 /* TeamDataManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		300B1E941BFCB35A00BFD541 /* NewsDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailModel.h; sourceTree = "<group>"; };
+		300B1E951BFCB35A00BFD541 /* NewsDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailModel.m; sourceTree = "<group>"; };
+		300BC6C41BFC7EE100E48792 /* NewsDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailController.h; sourceTree = "<group>"; };
+		300BC6C51BFC7EE100E48792 /* NewsDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailController.m; sourceTree = "<group>"; };
+		300BC6C61BFC7EE100E48792 /* NewsDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsDetailController.xib; sourceTree = "<group>"; };
+		301631451BFB562E0035E85F /* NBA图标256*256PX 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NBA图标256*256PX 2.png"; sourceTree = "<group>"; };
+		302014CF1C2007A600C8E144 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		302014D51C20316500C8E144 /* 33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 33.jpg; sourceTree = "<group>"; };
+		3037B9D21BF9C02700AD1DA2 /* 掌上NBA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "掌上NBA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3037B9D61BF9C02700AD1DA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3037B9E11BF9C02800AD1DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3037B9E41BF9C02800AD1DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3037B9E61BF9C02800AD1DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3037B9EE1BF9C12C00AD1DA2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3037B9EF1BF9C12C00AD1DA2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3037B9FB1BF9CF4E00AD1DA2 /* MatchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchTableViewCell.h; sourceTree = "<group>"; };
+		3037B9FC1BF9CF4E00AD1DA2 /* MatchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchTableViewCell.m; sourceTree = "<group>"; };
+		3037B9FD1BF9CF4E00AD1DA2 /* MatchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MatchTableViewCell.xib; sourceTree = "<group>"; };
+		3037BA001BF9D61100AD1DA2 /* URL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URL.h; sourceTree = "<group>"; };
+		3037BA011BF9D87F00AD1DA2 /* NBAPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBAPCH.pch; sourceTree = "<group>"; };
+		3037BA021BF9D9A500AD1DA2 /* MatchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchTableViewController.h; sourceTree = "<group>"; };
+		3037BA031BF9D9A500AD1DA2 /* MatchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchTableViewController.m; sourceTree = "<group>"; };
+		3037BA1C1BF9FE6200AD1DA2 /* NBANewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBANewsTableViewCell.h; sourceTree = "<group>"; };
+		3037BA1D1BF9FE6200AD1DA2 /* NBANewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBANewsTableViewCell.m; sourceTree = "<group>"; };
+		3037BA1E1BF9FE6200AD1DA2 /* NBANewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NBANewsTableViewCell.xib; sourceTree = "<group>"; };
+		3037BA211BFA073700AD1DA2 /* 森林狼.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "森林狼.png"; sourceTree = "<group>"; };
+		3037BA221BFA073700AD1DA2 /* 勇士.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "勇士.png"; sourceTree = "<group>"; };
+		3037BA271BFA07E200AD1DA2 /* NBANewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBANewsTableViewController.h; sourceTree = "<group>"; };
+		3037BA281BFA07E200AD1DA2 /* NBANewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBANewsTableViewController.m; sourceTree = "<group>"; };
+		3037BA2B1BFA0E5E00AD1DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3037BA2D1BFA10E300AD1DA2 /* PlayerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerTableViewCell.h; sourceTree = "<group>"; };
+		3037BA2E1BFA10E300AD1DA2 /* PlayerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerTableViewCell.m; sourceTree = "<group>"; };
+		3037BA2F1BFA10E300AD1DA2 /* PlayerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerTableViewCell.xib; sourceTree = "<group>"; };
+		3037BA321BFA151800AD1DA2 /* 库里1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "库里1.jpg"; sourceTree = "<group>"; };
+		3037BA341BFA153B00AD1DA2 /* PlayerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerTableViewController.h; sourceTree = "<group>"; };
+		3037BA351BFA153B00AD1DA2 /* PlayerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerTableViewController.m; sourceTree = "<group>"; };
+		3064320A1C02EEFF00FDE4CB /* tubiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tubiao.png; sourceTree = "<group>"; };
+		3064320C1C03150E00FDE4CB /* MZGuidePages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZGuidePages.h; sourceTree = "<group>"; };
+		3064320D1C03150E00FDE4CB /* MZGuidePages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZGuidePages.m; sourceTree = "<group>"; };
+		306432101C03183000FDE4CB /* 44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 44.jpg; sourceTree = "<group>"; };
+		306432121C03183000FDE4CB /* 66.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 66.jpg; sourceTree = "<group>"; };
+		308879571BFAB7BA00B9FF71 /* MatchModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchModels.h; sourceTree = "<group>"; };
+		308879581BFAB7BA00B9FF71 /* MatchModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchModels.m; sourceTree = "<group>"; };
+		3088795A1BFAB7F800B9FF71 /* NewsModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsModels.h; sourceTree = "<group>"; };
+		3088795B1BFAB7F800B9FF71 /* NewsModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsModels.m; sourceTree = "<group>"; };
+		3088795D1BFABAD900B9FF71 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		3088795E1BFABAD900B9FF71 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		308879601BFB0F5B00B9FF71 /* MacthDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacthDataManager.h; sourceTree = "<group>"; };
+		308879611BFB0F5B00B9FF71 /* MacthDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacthDataManager.m; sourceTree = "<group>"; };
+		30CF37911C02A41200647827 /* 篮球.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "篮球.png"; sourceTree = "<group>"; };
+		30CF37921C02A41200647827 /* 球队排行.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "球队排行.png"; sourceTree = "<group>"; };
+		30CF37931C02A41200647827 /* 球员.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "球员.png"; sourceTree = "<group>"; };
+		30CF37941C02A41200647827 /* 新闻.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新闻.png"; sourceTree = "<group>"; };
+		30CF37991C02A5F000647827 /* 1-111024161354.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-111024161354.jpg"; sourceTree = "<group>"; };
+		30D4F46B1C004BDC007FB0F7 /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
+		30D4F46C1C004BDC007FB0F7 /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefresh.h; sourceTree = "<group>"; };
+		30D4F46D1C004BDC007FB0F7 /* MJRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBaseView.h; sourceTree = "<group>"; };
+		30D4F46E1C004BDC007FB0F7 /* MJRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBaseView.m; sourceTree = "<group>"; };
+		30D4F46F1C004BDC007FB0F7 /* MJRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshConst.h; sourceTree = "<group>"; };
+		30D4F4701C004BDC007FB0F7 /* MJRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshConst.m; sourceTree = "<group>"; };
+		30D4F4711C004BDC007FB0F7 /* MJRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshFooterView.h; sourceTree = "<group>"; };
+		30D4F4721C004BDC007FB0F7 /* MJRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshFooterView.m; sourceTree = "<group>"; };
+		30D4F4731C004BDC007FB0F7 /* MJRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshHeaderView.h; sourceTree = "<group>"; };
+		30D4F4741C004BDC007FB0F7 /* MJRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshHeaderView.m; sourceTree = "<group>"; };
+		30D4F4751C004BDC007FB0F7 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		30D4F4761C004BDC007FB0F7 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		30D4F4771C004BDC007FB0F7 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		30D4F4781C004BDC007FB0F7 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		30D4F4791C004BDC007FB0F7 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
+		30D4F47A1C004BDC007FB0F7 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		30D8EC431BFC12E700D388A1 /* PlayerDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDataManager.h; sourceTree = "<group>"; };
+		30D8EC441BFC12E700D388A1 /* PlayerDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDataManager.m; sourceTree = "<group>"; };
+		30D8EC461BFC12F300D388A1 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		30D8EC471BFC12F300D388A1 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		30D96A4E1BFD9ED5007CF42C /* groups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = groups.h; sourceTree = "<group>"; };
+		30D96A4F1BFD9ED5007CF42C /* groups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = groups.m; sourceTree = "<group>"; };
+		30E7BBD51BFDCEB30009A590 /* TeamTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamTableViewCell.h; sourceTree = "<group>"; };
+		30E7BBD61BFDCEB30009A590 /* TeamTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamTableViewCell.m; sourceTree = "<group>"; };
+		30E7BBD71BFDCEB30009A590 /* TeamTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamTableViewCell.xib; sourceTree = "<group>"; };
+		30E7BBDD1BFDD4E10009A590 /* TeamModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamModel.h; sourceTree = "<group>"; };
+		30E7BBDE1BFDD4E10009A590 /* TeamModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamModel.m; sourceTree = "<group>"; };
+		30E7BBE01BFDF2390009A590 /* NBA图标 128*128 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NBA图标 128*128 4.png"; sourceTree = "<group>"; };
+		30E7BBE11BFDF2390009A590 /* NBA图标 256*256 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NBA图标 256*256 1.png"; sourceTree = "<group>"; };
+		30E7BBE21BFDF2390009A590 /* NBA图标 256*256 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NBA图标 256*256 4.png"; sourceTree = "<group>"; };
+		30E7BBE31BFDF2390009A590 /* NBA图标 排行.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NBA图标 排行.png"; sourceTree = "<group>"; };
+		30F30A1F1BFF079F007F6C51 /* PlayerDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDetailController.h; sourceTree = "<group>"; };
+		30F30A201BFF079F007F6C51 /* PlayerDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailController.m; sourceTree = "<group>"; };
+		30F30A211BFF079F007F6C51 /* PlayerDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerDetailController.xib; sourceTree = "<group>"; };
+		30FB519B1BFF1D6F00A7FE92 /* TeamTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamTableViewController.h; sourceTree = "<group>"; };
+		30FB519C1BFF1D6F00A7FE92 /* TeamTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamTableViewController.m; sourceTree = "<group>"; };
+		30FB519E1BFF204B00A7FE92 /* TeamDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamDataManager.h; sourceTree = "<group>"; };
+		30FB519F1BFF204B00A7FE92 /* TeamDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamDataManager.m; sourceTree = "<group>"; };
+		5249D4DABE1FB2931E9CE2F6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C23D618A34C578267A1255B4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8313CE8841FACFD7464FE2A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3037B9CF1BF9C02700AD1DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0456019852E8BEA22DF0BCB6 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3037B9C91BF9C02700AD1DA2 = {
+			isa = PBXGroup;
+			children = (
+				3037B9D41BF9C02700AD1DA2 /* 掌上NBA */,
+				3037B9D31BF9C02700AD1DA2 /* Products */,
+				3BF6925BFC9B4087082DDD54 /* Pods */,
+				C1F0ECD90AFD10411BFF7606 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3037B9D31BF9C02700AD1DA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3037B9D21BF9C02700AD1DA2 /* 掌上NBA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3037B9D41BF9C02700AD1DA2 /* 掌上NBA */ = {
+			isa = PBXGroup;
+			children = (
+				3037B9EC1BF9C12C00AD1DA2 /* Classes */,
+				3037B9E11BF9C02800AD1DA2 /* Assets.xcassets */,
+				3037B9E31BF9C02800AD1DA2 /* LaunchScreen.storyboard */,
+				3037BA2A1BFA0E5E00AD1DA2 /* Main.storyboard */,
+				3037B9E61BF9C02800AD1DA2 /* Info.plist */,
+				3037B9D51BF9C02700AD1DA2 /* Supporting Files */,
+			);
+			path = "掌上NBA";
+			sourceTree = "<group>";
+		};
+		3037B9D51BF9C02700AD1DA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3037B9D61BF9C02700AD1DA2 /* main.m */,
+				3037BA011BF9D87F00AD1DA2 /* NBAPCH.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3037B9EC1BF9C12C00AD1DA2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3037B9ED1BF9C12C00AD1DA2 /* AppDelegate */,
+				3037B9F01BF9C12C00AD1DA2 /* General */,
+				3037B9F41BF9C12C00AD1DA2 /* Helpers */,
+				3037B9F51BF9C12C00AD1DA2 /* Macro */,
+				3037B9F61BF9C12C00AD1DA2 /* Models */,
+				3037B9F71BF9C12C00AD1DA2 /* Resources */,
+				3037B9F81BF9C12C00AD1DA2 /* Scenes */,
+				3037B9F91BF9C12C00AD1DA2 /* Vendors */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3037B9ED1BF9C12C00AD1DA2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3064320C1C03150E00FDE4CB /* MZGuidePages.h */,
+				3064320D1C03150E00FDE4CB /* MZGuidePages.m */,
+				3037B9EE1BF9C12C00AD1DA2 /* AppDelegate.h */,
+				3037B9EF1BF9C12C00AD1DA2 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3037B9F01BF9C12C00AD1DA2 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				3037B9F11BF9C12C00AD1DA2 /* Categories */,
+				3037B9F21BF9C12C00AD1DA2 /* ViewControllers */,
+				3037B9F31BF9C12C00AD1DA2 /* Views */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		3037B9F11BF9C12C00AD1DA2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3037B9F21BF9C12C00AD1DA2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3037BA021BF9D9A500AD1DA2 /* MatchTableViewController.h */,
+				3037BA031BF9D9A500AD1DA2 /* MatchTableViewController.m */,
+				3037BA271BFA07E200AD1DA2 /* NBANewsTableViewController.h */,
+				3037BA281BFA07E200AD1DA2 /* NBANewsTableViewController.m */,
+				3037BA341BFA153B00AD1DA2 /* PlayerTableViewController.h */,
+				3037BA351BFA153B00AD1DA2 /* PlayerTableViewController.m */,
+				300BC6C41BFC7EE100E48792 /* NewsDetailController.h */,
+				300BC6C51BFC7EE100E48792 /* NewsDetailController.m */,
+				300BC6C61BFC7EE100E48792 /* NewsDetailController.xib */,
+				30F30A1F1BFF079F007F6C51 /* PlayerDetailController.h */,
+				30F30A201BFF079F007F6C51 /* PlayerDetailController.m */,
+				30F30A211BFF079F007F6C51 /* PlayerDetailController.xib */,
+				30FB519B1BFF1D6F00A7FE92 /* TeamTableViewController.h */,
+				30FB519C1BFF1D6F00A7FE92 /* TeamTableViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3037B9F31BF9C12C00AD1DA2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3037B9FB1BF9CF4E00AD1DA2 /* MatchTableViewCell.h */,
+				3037B9FC1BF9CF4E00AD1DA2 /* MatchTableViewCell.m */,
+				3037B9FD1BF9CF4E00AD1DA2 /* MatchTableViewCell.xib */,
+				3037BA1C1BF9FE6200AD1DA2 /* NBANewsTableViewCell.h */,
+				3037BA1D1BF9FE6200AD1DA2 /* NBANewsTableViewCell.m */,
+				3037BA1E1BF9FE6200AD1DA2 /* NBANewsTableViewCell.xib */,
+				3037BA2D1BFA10E300AD1DA2 /* PlayerTableViewCell.h */,
+				3037BA2E1BFA10E300AD1DA2 /* PlayerTableViewCell.m */,
+				3037BA2F1BFA10E300AD1DA2 /* PlayerTableViewCell.xib */,
+				30E7BBD51BFDCEB30009A590 /* TeamTableViewCell.h */,
+				30E7BBD61BFDCEB30009A590 /* TeamTableViewCell.m */,
+				30E7BBD71BFDCEB30009A590 /* TeamTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3037B9F41BF9C12C00AD1DA2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3037BA001BF9D61100AD1DA2 /* URL.h */,
+				3088795D1BFABAD900B9FF71 /* DataManager.h */,
+				3088795E1BFABAD900B9FF71 /* DataManager.m */,
+				308879601BFB0F5B00B9FF71 /* MacthDataManager.h */,
+				308879611BFB0F5B00B9FF71 /* MacthDataManager.m */,
+				30D8EC431BFC12E700D388A1 /* PlayerDataManager.h */,
+				30D8EC441BFC12E700D388A1 /* PlayerDataManager.m */,
+				30FB519E1BFF204B00A7FE92 /* TeamDataManager.h */,
+				30FB519F1BFF204B00A7FE92 /* TeamDataManager.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3037B9F51BF9C12C00AD1DA2 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		3037B9F61BF9C12C00AD1DA2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				308879571BFAB7BA00B9FF71 /* MatchModels.h */,
+				308879581BFAB7BA00B9FF71 /* MatchModels.m */,
+				3088795A1BFAB7F800B9FF71 /* NewsModels.h */,
+				3088795B1BFAB7F800B9FF71 /* NewsModels.m */,
+				300B1E941BFCB35A00BFD541 /* NewsDetailModel.h */,
+				300B1E951BFCB35A00BFD541 /* NewsDetailModel.m */,
+				30D8EC461BFC12F300D388A1 /* Player.h */,
+				30D8EC471BFC12F300D388A1 /* Player.m */,
+				30D96A4E1BFD9ED5007CF42C /* groups.h */,
+				30D96A4F1BFD9ED5007CF42C /* groups.m */,
+				30E7BBDD1BFDD4E10009A590 /* TeamModel.h */,
+				30E7BBDE1BFDD4E10009A590 /* TeamModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3037B9F71BF9C12C00AD1DA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				302014D51C20316500C8E144 /* 33.jpg */,
+				306432101C03183000FDE4CB /* 44.jpg */,
+				306432121C03183000FDE4CB /* 66.jpg */,
+				30CF37991C02A5F000647827 /* 1-111024161354.jpg */,
+				30E7BBE81BFE01B40009A590 /* 测试图片 */,
+				301631451BFB562E0035E85F /* NBA图标256*256PX 2.png */,
+				3037BA211BFA073700AD1DA2 /* 森林狼.png */,
+				3037BA221BFA073700AD1DA2 /* 勇士.png */,
+				3037BA321BFA151800AD1DA2 /* 库里1.jpg */,
+				30E7BBE01BFDF2390009A590 /* NBA图标 128*128 4.png */,
+				30E7BBE11BFDF2390009A590 /* NBA图标 256*256 1.png */,
+				30E7BBE21BFDF2390009A590 /* NBA图标 256*256 4.png */,
+				30E7BBE31BFDF2390009A590 /* NBA图标 排行.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3037B9F81BF9C12C00AD1DA2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		3037B9F91BF9C12C00AD1DA2 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				30D4F46A1C004BDC007FB0F7 /* MJRefresh */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		30D4F46A1C004BDC007FB0F7 /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				30D4F46B1C004BDC007FB0F7 /* MJRefresh.bundle */,
+				30D4F46C1C004BDC007FB0F7 /* MJRefresh.h */,
+				30D4F46D1C004BDC007FB0F7 /* MJRefreshBaseView.h */,
+				30D4F46E1C004BDC007FB0F7 /* MJRefreshBaseView.m */,
+				30D4F46F1C004BDC007FB0F7 /* MJRefreshConst.h */,
+				30D4F4701C004BDC007FB0F7 /* MJRefreshConst.m */,
+				30D4F4711C004BDC007FB0F7 /* MJRefreshFooterView.h */,
+				30D4F4721C004BDC007FB0F7 /* MJRefreshFooterView.m */,
+				30D4F4731C004BDC007FB0F7 /* MJRefreshHeaderView.h */,
+				30D4F4741C004BDC007FB0F7 /* MJRefreshHeaderView.m */,
+				30D4F4751C004BDC007FB0F7 /* UIScrollView+MJExtension.h */,
+				30D4F4761C004BDC007FB0F7 /* UIScrollView+MJExtension.m */,
+				30D4F4771C004BDC007FB0F7 /* UIScrollView+MJRefresh.h */,
+				30D4F4781C004BDC007FB0F7 /* UIScrollView+MJRefresh.m */,
+				30D4F4791C004BDC007FB0F7 /* UIView+MJExtension.h */,
+				30D4F47A1C004BDC007FB0F7 /* UIView+MJExtension.m */,
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		30E7BBE81BFE01B40009A590 /* 测试图片 */ = {
+			isa = PBXGroup;
+			children = (
+				302014CF1C2007A600C8E144 /* test.jpg */,
+				3064320A1C02EEFF00FDE4CB /* tubiao.png */,
+				30CF37911C02A41200647827 /* 篮球.png */,
+				30CF37921C02A41200647827 /* 球队排行.png */,
+				30CF37931C02A41200647827 /* 球员.png */,
+				30CF37941C02A41200647827 /* 新闻.png */,
+			);
+			path = "测试图片";
+			sourceTree = "<group>";
+		};
+		3BF6925BFC9B4087082DDD54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8313CE8841FACFD7464FE2A /* Pods.debug.xcconfig */,
+				5249D4DABE1FB2931E9CE2F6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1F0ECD90AFD10411BFF7606 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C23D618A34C578267A1255B4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3037B9D11BF9C02700AD1DA2 /* 掌上NBA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3037B9E91BF9C02800AD1DA2 /* Build configuration list for PBXNativeTarget "掌上NBA" */;
+			buildPhases = (
+				84C1FA4C8EDEBCCBAE176F44 /* Check Pods Manifest.lock */,
+				3037B9CE1BF9C02700AD1DA2 /* Sources */,
+				3037B9CF1BF9C02700AD1DA2 /* Frameworks */,
+				3037B9D01BF9C02700AD1DA2 /* Resources */,
+				34D4997CD432ADDA3C2FDECC /* Embed Pods Frameworks */,
+				F16A1A8CE37DF12A3A76B697 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "掌上NBA";
+			productName = "掌上NBA";
+			productReference = 3037B9D21BF9C02700AD1DA2 /* 掌上NBA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3037B9CA1BF9C02700AD1DA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = fandi;
+				TargetAttributes = {
+					3037B9D11BF9C02700AD1DA2 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = KM57DA9GKR;
+					};
+				};
+			};
+			buildConfigurationList = 3037B9CD1BF9C02700AD1DA2 /* Build configuration list for PBXProject "掌上NBA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3037B9C91BF9C02700AD1DA2;
+			productRefGroup = 3037B9D31BF9C02700AD1DA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3037B9D11BF9C02700AD1DA2 /* 掌上NBA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3037B9D01BF9C02700AD1DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CF37981C02A41200647827 /* 新闻.png in Resources */,
+				302014D01C2007A600C8E144 /* test.jpg in Resources */,
+				30CF37951C02A41200647827 /* 篮球.png in Resources */,
+				3037BA331BFA151800AD1DA2 /* 库里1.jpg in Resources */,
+				3037B9E51BF9C02800AD1DA2 /* LaunchScreen.storyboard in Resources */,
+				3037B9E21BF9C02800AD1DA2 /* Assets.xcassets in Resources */,
+				30E7BBE71BFDF2390009A590 /* NBA图标 排行.png in Resources */,
+				30CF37961C02A41200647827 /* 球队排行.png in Resources */,
+				3037BA251BFA073700AD1DA2 /* 勇士.png in Resources */,
+				30E7BBE61BFDF2390009A590 /* NBA图标 256*256 4.png in Resources */,
+				3037BA2C1BFA0E5E00AD1DA2 /* Main.storyboard in Resources */,
+				300BC6C81BFC7EE100E48792 /* NewsDetailController.xib in Resources */,
+				30E7BBE41BFDF2390009A590 /* NBA图标 128*128 4.png in Resources */,
+				30CF379A1C02A5F000647827 /* 1-111024161354.jpg in Resources */,
+				302014D61C20316500C8E144 /* 33.jpg in Resources */,
+				30E7BBD91BFDCEB30009A590 /* TeamTableViewCell.xib in Resources */,
+				3037BA241BFA073700AD1DA2 /* 森林狼.png in Resources */,
+				301631461BFB562E0035E85F /* NBA图标256*256PX 2.png in Resources */,
+				30D4F47B1C004BDC007FB0F7 /* MJRefresh.bundle in Resources */,
+				3037BA201BF9FE6200AD1DA2 /* NBANewsTableViewCell.xib in Resources */,
+				3037B9FF1BF9CF4E00AD1DA2 /* MatchTableViewCell.xib in Resources */,
+				306432161C03183000FDE4CB /* 66.jpg in Resources */,
+				30CF37971C02A41200647827 /* 球员.png in Resources */,
+				30E7BBE51BFDF2390009A590 /* NBA图标 256*256 1.png in Resources */,
+				3064320B1C02EEFF00FDE4CB /* tubiao.png in Resources */,
+				306432141C03183000FDE4CB /* 44.jpg in Resources */,
+				3037BA311BFA10E300AD1DA2 /* PlayerTableViewCell.xib in Resources */,
+				30F30A231BFF079F007F6C51 /* PlayerDetailController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34D4997CD432ADDA3C2FDECC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84C1FA4C8EDEBCCBAE176F44 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F16A1A8CE37DF12A3A76B697 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3037B9CE1BF9C02700AD1DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D4F4801C004BDC007FB0F7 /* UIScrollView+MJExtension.m in Sources */,
+				3037B9FA1BF9C12C00AD1DA2 /* AppDelegate.m in Sources */,
+				30FB519D1BFF1D6F00A7FE92 /* TeamTableViewController.m in Sources */,
+				30FB51A01BFF204B00A7FE92 /* TeamDataManager.m in Sources */,
+				30D4F4811C004BDC007FB0F7 /* UIScrollView+MJRefresh.m in Sources */,
+				3037BA041BF9D9A500AD1DA2 /* MatchTableViewController.m in Sources */,
+				3088795C1BFAB7F800B9FF71 /* NewsModels.m in Sources */,
+				30F30A221BFF079F007F6C51 /* PlayerDetailController.m in Sources */,
+				3064320E1C03150E00FDE4CB /* MZGuidePages.m in Sources */,
+				300BC6C71BFC7EE100E48792 /* NewsDetailController.m in Sources */,
+				3037BA361BFA153B00AD1DA2 /* PlayerTableViewController.m in Sources */,
+				30D4F47D1C004BDC007FB0F7 /* MJRefreshConst.m in Sources */,
+				30D8EC451BFC12E700D388A1 /* PlayerDataManager.m in Sources */,
+				3037BA301BFA10E300AD1DA2 /* PlayerTableViewCell.m in Sources */,
+				3037BA1F1BF9FE6200AD1DA2 /* NBANewsTableViewCell.m in Sources */,
+				3037B9D71BF9C02700AD1DA2 /* main.m in Sources */,
+				30D4F4821C004BDC007FB0F7 /* UIView+MJExtension.m in Sources */,
+				308879621BFB0F5B00B9FF71 /* MacthDataManager.m in Sources */,
+				30E7BBDF1BFDD4E10009A590 /* TeamModel.m in Sources */,
+				30E7BBD81BFDCEB30009A590 /* TeamTableViewCell.m in Sources */,
+				3037BA291BFA07E200AD1DA2 /* NBANewsTableViewController.m in Sources */,
+				308879591BFAB7BA00B9FF71 /* MatchModels.m in Sources */,
+				300B1E961BFCB35A00BFD541 /* NewsDetailModel.m in Sources */,
+				3088795F1BFABAD900B9FF71 /* DataManager.m in Sources */,
+				30D8EC481BFC12F300D388A1 /* Player.m in Sources */,
+				30D4F47C1C004BDC007FB0F7 /* MJRefreshBaseView.m in Sources */,
+				30D4F47E1C004BDC007FB0F7 /* MJRefreshFooterView.m in Sources */,
+				30D96A501BFD9ED6007CF42C /* groups.m in Sources */,
+				30D4F47F1C004BDC007FB0F7 /* MJRefreshHeaderView.m in Sources */,
+				3037B9FE1BF9CF4E00AD1DA2 /* MatchTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3037B9E31BF9C02800AD1DA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3037B9E41BF9C02800AD1DA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3037BA2A1BFA0E5E00AD1DA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3037BA2B1BFA0E5E00AD1DA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3037B9E71BF9C02800AD1DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3037B9E81BF9C02800AD1DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3037B9EA1BF9C02800AD1DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8313CE8841FACFD7464FE2A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "掌上NBA/NBAPCH.pch";
+				INFOPLIST_FILE = "掌上NBA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fandi.--NBA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3037B9EB1BF9C02800AD1DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5249D4DABE1FB2931E9CE2F6 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "掌上NBA/NBAPCH.pch";
+				INFOPLIST_FILE = "掌上NBA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fandi.--NBA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3037B9CD1BF9C02700AD1DA2 /* Build configuration list for PBXProject "掌上NBA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3037B9E71BF9C02800AD1DA2 /* Debug */,
+				3037B9E81BF9C02800AD1DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3037B9E91BF9C02800AD1DA2 /* Build configuration list for PBXNativeTarget "掌上NBA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3037B9EA1BF9C02800AD1DA2 /* Debug */,
+				3037B9EB1BF9C02800AD1DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3037B9CA1BF9C02700AD1DA2 /* Project object */;
+}

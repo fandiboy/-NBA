@@ -1,0 +1,19 @@
+//
+//  NBAPCH.pch
+//  掌上NBA
+//
+//  Created by fandi on 15/11/16.
+//  Copyright © 2015年 fandi. All rights reserved.
+//
+
+#ifndef NBAPCH_pch
+#define NBAPCH_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "URL.h"
+
+
+#endif /* NBAPCH_pch */
